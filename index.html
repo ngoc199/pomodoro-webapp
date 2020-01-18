@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Pomodoro App</title>
+    <link rel="icon" href="./icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- <audio src="D:/music/Aishiteru - Ken Hirai.mp3" id="buzzer" preload="auto"></audio> -->
+    <h1>Pomodoro Clock</h1>
+    <h3>Get Your Best Work Day</h3>
+    <h3 id="time-display">00:00</h3>
+    <div class="timeDiv">
+      <h2 id="title1">Session Time</h2>
+      <button data-time="1500" class="time-select" id="pomodoro">
+        25 Minutes
+      </button>
+      <button data-time="3000" class="time-select" id="pomodoro">
+        50 Minutes
+      </button>
+    </div>
+    <div id="breakDiv">
+      <h2 id="title1">Break Time</h2>
+      <button data-time="300" class="time-select">5 Minutes</button>
+      <button data-time="600" class="time-select">10 Minutes</button>
+      <button data-time="900" class="time-select">15 Minutes</button>
+    </div>
+    <div class="pauseDiv">
+      <button id="pause-music">Stop Music!!!</button>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
